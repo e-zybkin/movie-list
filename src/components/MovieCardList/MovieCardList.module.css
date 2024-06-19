@@ -1,0 +1,24 @@
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardsBlock {
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, 320px);
+  column-gap: 24px;
+  row-gap: 37px;
+}
+
+.progress {
+  margin-top: 45vh;
+  align-self: center;
+}
+
+.pagination {
+  align-self: center;
+  padding-bottom: 30px;
+}

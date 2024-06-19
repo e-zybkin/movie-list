@@ -1,0 +1,59 @@
+.card {
+  min-height: 480px;
+  background-image: url(https://placehold.co/364x480?text=Постер);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.25s linear;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.card:hover .infoBlock {
+  transform: translateY(0px);
+}
+
+.rating {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: bisque;
+  border-radius: 20px;
+  align-self: flex-end;
+  line-height: 40px;
+  margin: 0;
+  color: black;
+}
+
+.infoBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #0077FF;
+  border-radius: 20px;
+  color: #FFF;
+  transition: all 0.25s linear;
+  transform: translateY(150px);
+}
+
+.name, .year {
+  margin: 0;
+}
+
+.name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

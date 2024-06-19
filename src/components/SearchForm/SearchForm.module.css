@@ -1,0 +1,24 @@
+.filterForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 0;
+}
+
+.rating {
+
+}
+
+.buttonBox {
+  display: flex;
+  gap: 20px;
+  align-self: center;
+}
+
+.button {
+  width:100px;
+}
